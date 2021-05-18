@@ -32,6 +32,11 @@ public class MainClass01 {
 		String strNum2="999";
 		int result4=Integer.parseInt(strNum2);
 		
+		Integer abc = 10;
+		System.out.println(abc.toString());
+		
+		
+		
 	}
 }
 

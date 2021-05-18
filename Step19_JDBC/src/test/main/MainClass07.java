@@ -25,7 +25,7 @@ public class MainClass07 {
 		ResultSet rs=null;
 		try {
 			//DBConnect 객체를 이용해서 Connection 객체의 참조값을 얻어온다.
-			conn=new DBConnect().getConn();
+			conn = new DBConnect().getConn();
 			//실행할 sql 문
 			String sql="SELECT num,name,addr"
 					+ " FROM member"

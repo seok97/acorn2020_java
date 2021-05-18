@@ -12,8 +12,8 @@ public class MainClass03 {
 		 *  회원의 번호는 시퀀스 객체를 이용해서 넣기
 		 *  시퀀스 명: member_seq
 		 */
-		String name="김구라";
-		String addr="노량진";
+		String name="석우현";
+		String addr="세종시";
 		
 		//DB 연결객체를 담을 지역변수 만들기
 		Connection conn=null;

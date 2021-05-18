@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class MainClass13 {
 	public static void main(String[] args) {
-		File memoFile=new File("c:/acorn2020/myFolder/memo.txt");
+		File memoFile=new File("E:\\\\acon202104/memo.txt");
 		try {
 			if(!memoFile.exists()) {
 				System.out.println("파일이 존재 하지 않습니다.");
@@ -17,13 +17,14 @@ public class MainClass13 {
 			while(true) {
 				//글자 하나 하나의 코드값을 반복문 돌면서 읽어들인다. 
 				int code=fr.read();
+				System.out.println(code);
 				if(code==-1) {//더이상 읽을 코드가 없으면 
 					break;//반복문 탈출 
 				}
 				//코드값에 해당되는 문자
 				char ch=(char)code;
 				//콘솔창에 개행기호 없이 한글자 한글자 출력하기
-				System.out.print(ch);
+				System.out.println(ch);
 			}
 		}catch(IOException ie) {
 			ie.printStackTrace();

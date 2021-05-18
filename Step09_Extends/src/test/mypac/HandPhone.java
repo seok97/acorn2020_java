@@ -15,4 +15,11 @@ public class HandPhone extends Phone{
 	public void takePicture() {
 		System.out.println("30만 화소의 사진을 찍어요");
 	}
+
+	@Override
+	public void call() {
+		System.out.println("handphone 전화를 걸어요");
+		super.call();
+	}
+
 }

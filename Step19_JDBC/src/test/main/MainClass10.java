@@ -21,7 +21,6 @@ public class MainClass10 {
 		//수정할 회원의 정보라면
 		MemberDto dto2=new MemberDto(1, "김구라", "독산동");
 		dao2.update(dto2);
-		
 	}
 }
 

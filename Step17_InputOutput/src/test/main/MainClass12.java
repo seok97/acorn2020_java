@@ -7,7 +7,7 @@ import java.io.IOException;
 public class MainClass12 {
 	public static void main(String[] args) {
 		//문자열을 저장할 파일을 만들기위한 File 객체
-		File memoFile=new File("c:/acorn2020/myFolder/memo.txt");
+		File memoFile=new File("E:\\acon202104/memo.txt");
 		try {
 			//실제로 파일이 존재하는지 여부 
 			boolean isExist=memoFile.exists();

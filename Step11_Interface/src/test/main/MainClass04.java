@@ -16,6 +16,7 @@ public class MainClass04 {
 		};
 		
 		useDrill(d1);
+		
 		useDrill(()->{
 			System.out.println("핸드폰에 1mm 구멍내기");
 		});

@@ -28,10 +28,14 @@ public class ServerMain {
 			serverSocket=new ServerSocket(5000);
 			while(true) {
 				//클라이언트의 소켓 접속을 기다린다.
+				System.out.println("클라이언트 접속 대기중");
 				Socket socket=serverSocket.accept();
+				
 				//방금 접속한 클라이언트를 응대할 스레드를 시작 시킨다.
+				System.out.println("클라이언트가 접속했습니다.");
 				ServerThread thread=new ServerThread(socket);
 				thread.start();
+				
 				//생성하고 시작한 스레드의 참조값을 List 에 저장하기 
 				threadList.add(thread);
 			}

@@ -25,7 +25,7 @@ public class MainClass08 {
 		Connection conn=null;
 		PreparedStatement pstmt=null;
 		try {
-			conn=new DBConnect().getConn();
+			conn= new DBConnect().getConn();
 			String sql="INSERT INTO member"
 					+ " (num, name, addr)"
 					+ " VALUES(member_seq.NEXTVAL, ?, ?)";

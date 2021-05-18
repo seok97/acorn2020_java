@@ -27,7 +27,7 @@ public class MainClass09 {
 		Connection conn=null;
 		PreparedStatement pstmt=null;
 		try {
-			conn=new DBConnect().getConn();
+			conn= new DBConnect().getConn();
 			String sql="UPDATE member"
 					+ " SET name=?, addr=?"
 					+ " WHERE num=?";

@@ -7,6 +7,8 @@ public class MainClass08 {
 	public static void main(String[] args) {
 		/*
 		 *  HashMap<key 값의 type, value 값의 type> 
+		 *  value 의 generic class 는 담을 데이터 type을 지정하면 된다.
+		 *  여러개의 type을 섞어서 담을려면 Object로 지정하면 된다.
 		 */
 		Map<String, Object> map1=new HashMap<>();
 		map1.put("num", 1);

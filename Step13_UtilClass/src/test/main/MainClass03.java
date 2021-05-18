@@ -13,6 +13,14 @@ public class MainClass03 {
 		msgs.add("원숭이");
 		msgs.add("주뎅이");
 		msgs.add("덩어리");
+		
+		for(int i = 0; i<msgs.size(); i++) {
+			String tmp = msgs.get(i);
+			System.out.println(tmp);
+		}
+		
+		System.out.println("-------");
+		
 		for(String tmp:msgs) {
 			System.out.println(tmp);
 		}
